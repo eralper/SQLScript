@@ -5,3 +5,6 @@
 -- Get DDL statement for table and views
 call get_object_definition('SAPABAP1', 'T002')
 
+-- Get DDL statement for AMDP procedures
+call get_object_definition ('SAPABAP1', '/KODYAZ/SOM_INFO_ORDER_AMDP=>P_SEL_VBAKUK_VBAP') 
+
