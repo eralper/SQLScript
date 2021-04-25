@@ -1,0 +1,7 @@
+----------------------
+-- https://www.kodyaz.com/sap-abap/hana-database-object-definition-for-sqlscript-ddl-create-statement.aspx
+----------------------
+
+-- Get DDL statement for table and views
+call get_object_definition('SAPABAP1', 'T002')
+
